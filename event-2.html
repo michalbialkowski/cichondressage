@@ -7,8 +7,9 @@
     <title>Cichoń Dressage</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=d41d8cd98f00b204e9800998ecf8427e">
     <link rel="manifest" href="manifest.json?h=41b34d7c0c6ff0aa871aaa7955815294" crossorigin="use-credentials">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext&amp;display=swap">
     <link rel="stylesheet" href="https://use.typekit.net/tzc6res.css">
-    <link rel="stylesheet" href="assets/css/styles.min.css?h=e9fb6dbed565adbf9aa33f1c4112e4df">
+    <link rel="stylesheet" href="assets/css/styles.min.css?h=0a830dadee7a959efeb3897cc13c2a99">
 </head>
 
 <body>
@@ -28,7 +29,7 @@
                     </div>
                 </section>
                 <section class="d-none d-lg-block position-relative">
-                    <div class="py-4">
+                    <div class="py-4 position-relative z-2 bg-white">
                         <div class="container">
                             <div class="row justify-content-between align-items-center">
                                 <div class="col-auto"><a href="index.html"><img class="h--80" src="assets/img/logos/logo-cichon-dressage.svg?h=9961daf1bc1f8b5cf88b827e3f3cbef7"></a></div>
@@ -36,8 +37,8 @@
                                     <div class="row gx-5 align-items-center">
                                         <div class="col-auto">
                                             <ul class="nav mx-n3">
-                                                <li class="nav-item"><a class="nav-link active d-flex align-items-center link-black gap-2 px-2 px-xl-3" href="#">Wydarzenia</a></li>
-                                                <li class="nav-item"><a class="nav-link d-flex align-items-center link-black gap-2 px-2 px-xl-3" href="#">Sprzedaż</a></li>
+                                                <li class="nav-item"><a class="nav-link active d-flex align-items-center link-black gap-2 px-2 px-xl-3" href="events.html">Wydarzenia</a></li>
+                                                <li class="nav-item"><a class="nav-link d-flex align-items-center link-black gap-2 px-2 px-xl-3" href="offers.html">Sprzedaż</a></li>
                                                 <li class="nav-item"><a class="nav-link d-flex align-items-center link-black gap-2 px-2 px-xl-3" href="#!" data-bs-target="#accordion_mainmenu .item-1" data-bs-toggle="collapse"><span>O nas</span><svg 
  xmlns="http://www.w3.org/2000/svg"
  xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -52,7 +53,7 @@
 <path fill-rule="evenodd"  fill="currentColor"
  d="M12.988,6.414 L6.490,12.990 L-0.006,6.414 L0.979,5.415 L5.793,10.287 L5.793,0.005 L7.187,0.005 L7.186,10.289 L12.002,5.414 L12.988,6.414 Z"/>
 </svg></a></li>
-                                                <li class="nav-item"><a class="nav-link d-flex align-items-center link-black gap-2 px-2 px-xl-3" href="#">Kontakt</a></li>
+                                                <li class="nav-item"><a class="nav-link d-flex align-items-center link-black gap-2 px-2 px-xl-3" href="page-kontakt.html">Kontakt</a></li>
                                             </ul>
                                         </div>
                                         <div class="col-auto">
@@ -65,7 +66,7 @@
                                         </div>
                                         <div class="col-auto">
                                             <ul class="nav">
-                                                <li class="nav-item"><a class="nav-link fw-semibold d-flex align-items-center link-rose gap-2 p-0" href="#"><svg 
+                                                <li class="nav-item"><a class="nav-link fw-semibold d-flex align-items-center link-rose gap-2 p-0" href="account.html"><svg 
  xmlns="http://www.w3.org/2000/svg"
  xmlns:xlink="http://www.w3.org/1999/xlink"
  width="22px" height="22px">
@@ -79,37 +80,87 @@
                             </div>
                         </div>
                     </div>
-                    <div class="position-absolute w-100 top-100">
+                    <div class="position-absolute w-100 top-100 z-1">
                         <div class="accordion" role="tablist" id="accordion_mainmenu">
                             <div class="accordion-item">
                                 <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion_mainmenu .item-1" aria-expanded="false" aria-controls="accordion_mainmenu .item-1">Accordion Item</button></h2>
                                 <div class="accordion-collapse collapse item-1" role="tabpanel" data-bs-parent="#accordion_mainmenu">
                                     <div class="accordion-body">
-                                        <div class="container">
-                                            <div class="row">
-                                                <div class="col">
-                                                    <h4 class="fw-semibold">O nas</h4>
-                                                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra scelerisque sem et lobortis. Duis vestibulum et dolor rhoncus fermentum. Nullam dictum imperdiet tortor, et sagittis diam vulputate eget. Donec fringilla ultrices ante et luctus. Nam a consequat risus. Cras egestas mi lacus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus malesuada, nisl ut scelerisque sollicitudin, massa sapien sagittis lectus, ac bibendum ante lorem non tellus. Curabitur laoreet euismod pellentesque. Nam et fermentum ex. Praesent ultricies feugiat volutpat. Donec faucibus felis quis libero posuere molestie.</p>
+                                        <section class="bg-rose text-white">
+                                            <div class="container">
+                                                <div class="row row-cols-2">
+                                                    <div class="col-xxl-6 d-flex">
+                                                        <div class="flex-grow-1 pb-4 pt-5">
+                                                            <h2 class="fw-semibold mb-3">O nas</h2>
+                                                            <p class="lead mb-0 fw--500">Z wielką przyjemnością prezentujemy Państwu naszą działalność, a także zespół ludzi tworzących Cichoń Dressage, mając nadzieję, iż kiedyś dane nam będzie Państwa gościć i poznać osobiście.</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col d-flex">
+                                                        <div class="d-flex flex-grow-1 bg-black bg-opacity-50">
+                                                            <div class="flex-grow-1 ratio ratio-16-9 bg-black"><img class="img-fluid" src="https://cichondressage.pl/wp-content/themes/default-template/images/cichondressage_onas_centrum-2.jpg"></div>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <div class="col"></div>
                                             </div>
-                                        </div>
+                                        </section>
+                                        <section class="bg-black text-white py-4">
+                                            <div class="container">
+                                                <div class="d-flex justify-content-start flex-wrap gap-3"><a class="btn d-flex align-items-center btn-outline-lightrose gap-2" role="button" href="page-about-location.html"><span>Zobacz nasz obiekt</span><svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="17px" height="17px">
+<path fill-rule="evenodd"  fill="currentColor"
+ d="M8.389,17.007 L7.082,15.716 L13.454,9.410 L0.007,9.409 L0.007,7.584 L13.456,7.585 L7.081,1.275 L8.388,-0.016 L16.988,8.496 L8.389,17.007 Z"/>
+</svg></a><a class="btn d-flex align-items-center btn-outline-lightrose gap-2" role="button" href="page-about-team.html"><span>Poznaj nasz Zespół</span><svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="17px" height="17px">
+<path fill-rule="evenodd"  fill="currentColor"
+ d="M8.389,17.007 L7.082,15.716 L13.454,9.410 L0.007,9.409 L0.007,7.584 L13.456,7.585 L7.081,1.275 L8.388,-0.016 L16.988,8.496 L8.389,17.007 Z"/>
+</svg></a></div>
+                                            </div>
+                                        </section>
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion_mainmenu .item-2" aria-expanded="false" aria-controls="accordion_mainmenu .item-2">Accordion Item</button></h2>
-                                <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#accordion_mainmenu">
+                                <div class="accordion-collapse collapse item-2 text-white bg-primary" role="tabpanel" data-bs-parent="#accordion_mainmenu">
                                     <div class="accordion-body">
-                                        <div class="container">
-                                            <div class="row">
-                                                <div class="col">
-                                                    <h4 class="fw-semibold">Klub Lider</h4>
-                                                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra scelerisque sem et lobortis. Duis vestibulum et dolor rhoncus fermentum. Nullam dictum imperdiet tortor, et sagittis diam vulputate eget. Donec fringilla ultrices ante et luctus. Nam a consequat risus. Cras egestas mi lacus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus malesuada, nisl ut scelerisque sollicitudin, massa sapien sagittis lectus, ac bibendum ante lorem non tellus. Curabitur laoreet euismod pellentesque. Nam et fermentum ex. Praesent ultricies feugiat volutpat. Donec faucibus felis quis libero posuere molestie.</p>
+                                        <section class="bg-rose text-white">
+                                            <div class="container">
+                                                <div class="row row-cols-2">
+                                                    <div class="col-xxl-6 d-flex">
+                                                        <div class="flex-grow-1 pb-4 pt-5">
+                                                            <h2 class="fw-semibold mb-3">Klub Lider</h2>
+                                                            <p class="lead mb-0 fw--500">Stowarzyszenie Kultury Fizycznej Klub Jeździecki LIDER zostało powołane do życia w 1999 r., od początku swojego istnienia zrzeszając czołowych polskich zawodników</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col d-flex">
+                                                        <div class="d-flex flex-grow-1 bg-black bg-opacity-50">
+                                                            <div class="flex-grow-1 ratio ratio-16-9 bg-black"><img class="img-fluid" src="https://cichondressage.pl/wp-content/themes/default-template/images/cichondressage_klublider_klub-top.jpg"></div>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <div class="col"></div>
                                             </div>
-                                        </div>
+                                        </section>
+                                        <section class="bg-black text-white py-4">
+                                            <div class="container">
+                                                <div class="d-flex justify-content-start flex-wrap gap-3"><a class="btn d-flex align-items-center btn-outline-lightrose gap-2" role="button" href="page-lider-about.html"><span>O Klubie</span><svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="17px" height="17px">
+<path fill-rule="evenodd"  fill="currentColor"
+ d="M8.389,17.007 L7.082,15.716 L13.454,9.410 L0.007,9.409 L0.007,7.584 L13.456,7.585 L7.081,1.275 L8.388,-0.016 L16.988,8.496 L8.389,17.007 Z"/>
+</svg></a><a class="btn d-flex align-items-center btn-outline-lightrose gap-2" role="button" href="page-lider-competitors.html"><span>Poznaj zawodników</span><svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="17px" height="17px">
+<path fill-rule="evenodd"  fill="currentColor"
+ d="M8.389,17.007 L7.082,15.716 L13.454,9.410 L0.007,9.409 L0.007,7.584 L13.456,7.585 L7.081,1.275 L8.388,-0.016 L16.988,8.496 L8.389,17.007 Z"/>
+</svg></a></div>
+                                            </div>
+                                        </section>
                                     </div>
                                 </div>
                             </div>
@@ -121,15 +172,15 @@
         <main>
             <section class="pt-5 pb-4">
                 <div class="container">
-                    <div class="row gy-3 justify-content-between">
-                        <div class="col-auto">
+                    <div class="row gy-3 justify-content-between align-items-end">
+                        <div class="col">
                             <h2 class="fw-semibold mb-3">Formularz rezerwacji</h2>
                             <p class="mb-0">Wybierz najlepsze miejsce dla swojego ogiera, klaczy, wałacha.<br>I stwórz mu idealne warunki do pobytu w naszej stajni.</p>
                         </div>
-                        <div class="col-auto">
+                        <div class="col-12 col-md-6 col-xl-5 col-xxxl-4">
                             <div class="p-3 bg-lightrose">
                                 <p class="mb-0">Wydarzenie do którego dołączasz</p>
-                                <h4 class="fw-bold text-rose">Championat Młodych Koni</h4>
+                                <h4 class="fw-bold text-rose">Championat młodych koni</h4>
                                 <div class="fw-semibold d-flex align-items-center gap-2"><svg 
  xmlns="http://www.w3.org/2000/svg"
  xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -372,11 +423,11 @@
                         <div class="row gx-0 gy-4 flex-column">
                             <div class="col">
                                 <ul class="list-unstyled d-flex flex-column mb-0 gap-2">
-                                    <li><a class="text-decoration-none link-black" href="page.html">Wydarzenia</a></li>
-                                    <li><a class="text-decoration-none link-black" href="page.html">Sprzedaż</a></li>
+                                    <li><a class="text-decoration-none link-black" href="events.html">Wydarzenia</a></li>
+                                    <li><a class="text-decoration-none link-black" href="offers.html">Sprzedaż</a></li>
                                     <li><a class="text-decoration-none link-black" href="page.html">O nas</a></li>
                                     <li><a class="text-decoration-none link-black" href="page.html">Klub Lider</a></li>
-                                    <li><a class="text-decoration-none link-black" href="page.html">Kontakt</a></li>
+                                    <li><a class="text-decoration-none link-black" href="page-kontakt.html">Kontakt</a></li>
                                 </ul>
                             </div>
                             <div class="col">
@@ -392,6 +443,82 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas_filters">
+            <div class="offcanvas-header border-bottom">
+                <h5 class="offcanvas-title">Filtry</h5><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body p-0">
+                <form>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item py-3"><label class="form-label">Szukaj</label><input class="form-control" type="text" placeholder="Wpisz słowa kluczowe"></li>
+                        <li class="list-group-item py-3"><label class="form-label">Sortuj wg</label><select class="form-select">
+                                <option value="">Wybierz…</option>
+                                <optgroup label="Kolejność dodania">
+                                    <option value="" selected="">Najnowsze</option>
+                                    <option value="">Najstarsze</option>
+                                </optgroup>
+                                <optgroup label="Cena">
+                                    <option value="">Najtańsze</option>
+                                    <option value="">Najdroższe</option>
+                                </optgroup>
+                            </select></li>
+                        <li class="list-group-item py-3"><label class="form-label">Płeć</label><select class="form-select">
+                                <option value="">Wybierz…</option>
+                                <option value="">Ogier</option>
+                                <option value="">Klacz</option>
+                                <option value="">Wałach</option>
+                            </select></li>
+                        <li class="list-group-item py-3"><label class="form-label">Przeznaczenie</label><select class="form-select">
+                                <option value="">Wybierz…</option>
+                                <option value="">Ujeżdżanie</option>
+                                <option value="">Skoki</option>
+                                <option value="">Rekreacja</option>
+                            </select></li>
+                        <li class="list-group-item py-3"><label class="form-label">Maść</label><select class="form-select">
+                                <option value="">Wybierz…</option>
+                                <option value="">Kasztanowata</option>
+                                <option value="">Gniada</option>
+                                <option value="">Kara</option>
+                                <option value="">Siwa</option>
+                            </select></li>
+                        <li class="list-group-item py-3"><label class="form-label">Rasa</label><select class="form-select">
+                                <option value="">Wybierz…</option>
+                            </select></li>
+                        <li class="list-group-item py-3"><label class="form-label">Województwo</label><select class="form-select">
+                                <option value="">Wybierz…</option>
+                            </select></li>
+                    </ul>
+                </form>
+            </div>
+            <div class="p-3 border-top">
+                <div class="d-flex justify-content-between gap-3"><a class="btn btn-primary" role="button" href="#!">Szukaj</a><a class="btn btn-outline-dark" role="button" href="#!">Resetuj</a></div>
+            </div>
+        </div>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas_competitor">
+            <div class="offcanvas-header border-bottom">
+                <h5 class="offcanvas-title">Dane zawodnika</h5><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body p-0">
+                <form>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item py-3"><label class="form-label">Imię i nazwisko</label><input class="form-control" type="text" value="Janusz Kowalski-Grudziądz"></li>
+                        <li class="list-group-item py-3"><label class="form-label">Nazwa klubu</label><input class="form-control" type="text" value="Pięść Dzieciątka Jezus Kończyny Wielkie"></li>
+                        <li class="list-group-item py-3"><label class="form-label">Płeć konia</label><select class="form-select">
+                                <option value="">Wybierz…</option>
+                                <option value="">Klacz</option>
+                                <option value="" selected="">Wałach</option>
+                                <option value="">Ogier</option>
+                            </select></li>
+                        <li class="list-group-item py-3"><label class="form-label">Imię konia</label><input class="form-control" type="text" value="Jastrząb Zdrój"></li>
+                        <li class="list-group-item py-3"><label class="form-label">Numer telefonu</label><input class="form-control" type="tel" value="+48 725 190 811"></li>
+                        <li class="list-group-item py-3"><label class="form-label">Adres e-mail</label><input class="form-control" type="tel" value="janusz.kowalski@gmail.com"></li>
+                    </ul>
+                </form>
+            </div>
+            <div class="p-3 border-top">
+                <div class="d-flex justify-content-between gap-3"><a class="btn btn-primary" role="button" href="#!">Aktualizuj</a></div>
             </div>
         </div>
     </div>
